@@ -5,13 +5,28 @@
     flex-direction: column;
     background: @nav-bg;
     width: 100%;
-    // position: fixed;
+    opacity: 0.7;
+    transition: 0.6s;
+
+    &:hover{
+        opacity: 1.0;
+        transition: 0.6s;
+    }
+    
+    
+    
 
     .nav-header{
         padding: 2rem 0;
 
         h1{
             font-size: 4.8rem;
+            transition: 0.9s;
+
+            &:hover{
+                zoom: 1.1;
+                
+            }
         }
         
     }
