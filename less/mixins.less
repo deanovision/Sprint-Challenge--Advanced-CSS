@@ -1,1 +1,21 @@
 // Mixins Here
+.sign-up(@background-color, @font-color, @font-size, @width, @padding){
+    background: @background-color;
+    color: @font-color;
+    font-size: @font-size;
+    width: @width;
+    padding: @padding;
+    text-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+    &:hover{
+        background: @footer-background;
+        color: @btn-bg-color;
+        border: 0.1rem solid @btn-bg-color;
+    }
+}
+
+.width(){
+    width:100%;
+}

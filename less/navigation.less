@@ -4,7 +4,8 @@
     align-items: center;
     flex-direction: column;
     background: @nav-bg;
-    max-width: 100%;
+    width: 100%;
+    // position: fixed;
 
     .nav-header{
         padding: 2rem 0;
@@ -24,6 +25,20 @@
             text-decoration: none;
             font-size: 1.8rem;
             color: @nav-font;
-        }
+           
+
+            &:hover{
+                font-weight: bolder;
+            }
+
+            
+        }        
     }
+
+    @media @phone{
+        .nav-bar{
+            width: 85%;
+          }
+    }
+    
 }
