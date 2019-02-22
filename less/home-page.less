@@ -5,10 +5,9 @@
   // display: flex;
   // flex-direction: column;
   // align-content: center;
+    
   
   
-  
-
   .intro {
 
     h2 {
@@ -85,6 +84,20 @@
         border-radius: 1rem;
       }
     }
+  }
+
+  @media @tablet{
+    .walk-text {
+      width: 50%;
+
+      .btn {
+        
+        .sign-up(@btn-bg-color, @porcelain, 1.6rem, 40%, 1rem 0.5rem);
+        // white-space: nowrap;
+        flex-basis: 200px;
+      }
+    }
+    
   }
   @media @phone{
     
